@@ -46,7 +46,7 @@ function OverviewChart({ isDashboardView = false, view }) {
 
   return (
     <ResponsiveLine
-      data={view == "sales" ? totalSalesline : totalUnitLine}
+      data={view === "sales" ? totalSalesline : totalUnitLine}
       theme={{
         axis: {
           domain: { line: { stroke: theme.palette.secondary[200] } },

@@ -24,6 +24,7 @@ import {
   Typography,
   Button,
 } from "@mui/material";
+import AboutMe from "./AboutMe.jsx";
 
 function Navbar({ user, isSidebarOpen, setIsSidebarOpen }) {
   const dispatch = useDispatch();
@@ -76,6 +77,13 @@ function Navbar({ user, isSidebarOpen, setIsSidebarOpen }) {
           <IconButton>
             <SettingsOutlined sx={{ fontSize: "25px" }} />
           </IconButton>
+
+          <AboutMe
+            title="My Dashboard v1"
+            desc="professional & responsive web dashboard, Full MERN stack"
+            appFrontEnd="ReactJS, MUI datagrid, Nuvo Charts, Redux, React Router"
+            AppBackEnd="NodeJS/Express, using mongoose to connect to MongoDB"
+          />
 
           <FlexBetween>
             <Button

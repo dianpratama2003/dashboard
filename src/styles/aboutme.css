@@ -1,0 +1,13 @@
+.aboutme_CoderIcon {
+  width: 55px;  
+  transition: 0.2s;
+  margin-right: 10px;  
+}
+
+
+.aboutme_CoderIcon:hover {
+  transform: scale(1.1);
+
+} 
+
+

@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Dashboard front-end code
 
 hobby project for weekend, making responsive dashboard
 
