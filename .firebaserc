@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "porto-95293"
+  },
+  "targets": {
+    "porto-95293": {
+      "hosting": {
+        "dashboard77": [
+          "dashboard77"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
